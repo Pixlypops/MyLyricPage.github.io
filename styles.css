@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    /* font-family: Arial, sans-serif; */
+    line-height: 1.6;
+    color: #333;
+    box-sizing: border-box;
+  }
+   
+  
+  
+  /*top-section*/
+  #top-section{
+    padding: 20px 50px 0 50px;
+  }
+  /* Header Styles */
+  header {
+    background-color: #ffde00;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    flex-wrap: nowrap;
+    font-size: 14px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  #main-banner {
+    background: url('talking_heads-speaking_in_tongues.png') no-repeat center center;
+    background-size: cover;
+    font-family: "Francois One",sans-serif ;
+    position: relative;
+    padding: 20px;    
+    height: 250px;
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  div.transparent-overlay{   
+    flex: 1; 
+    width: 80%;    
+    pointer-events: none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    /* text-align: center; */
+    /* box-sizing: border-box; */
+  }
+.transparent-overlay{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 1rem;
+    
+}
+div#image{   
+    position: relative;
+    flex: 0.5;
+    padding-left:25px;
+    padding-top: 35px;
+    margin-left: 200px;    
+      
+}
+#image img{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+.transparent-overlay h1{
+    color: #ffde00;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+.transparent-overlay p{
+    color: #f7f6f2;
+    font-size: small;
+    line-height: 1.1;
+    /* border: 3px solid green; */
+}
+#album-name{
+   margin: -16px 0;
+   font-size: 24px;
+}
+  .main-banner h1 {
+    margin: 0;
+    font-size: 20px;
+    color: #ffde00;
+  }
+
+  .main-banner p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+
+  /* Content Layout */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+    
+    min-width: 60%;
+    max-width: 90%;
+  }
+
+  .lyrics-column {
+    flex: 1 1 60%;
+    background-color: #fff;
+    
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 50%;
+    overflow: hidden;
+  }
+  
+  .about-column {
+    flex: 1 1 27.23%;
+    background-color: #333;
+    color: #fff;
+    
+    border-radius: 5px;
+    min-width: 10%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 300px;
+   
+  }
+  .lyrics-column, .about-column{
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  /* Section Styles */
+  .lyrics-section {
+    margin-bottom: 20px;
+    border-left: #ffde00 2px solid;
+    /*padding-left: 20px*/
+  }
+  
+
+    div.lyrics-section-chorus{        
+        margin: 10px 0 10px 50px;
+        border-left: #ffde00 2px solid;
+        
+    }
+
+    div.lyrics-section-chorus strong {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ffde00;
+        color: black;
+        font-size: 16px;   
+    }
+
+    div.lyrics-section-chorus p{        
+        /*margin-left: 20px ; */
+        text-indent: 30px; 
+        line-height: 0.5;
+    }
+    div.lyrics-section p{        
+        /*margin-left: 20px; */  
+        text-indent: 30px; 
+        line-height: 0.5;
+    }
+  div.lyrics-section strong {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffde00;
+    color: black;
+    font-size: 16px;
+  }
+
+  .chorus {
+    /*margin-left: 20px;*/
+    font-style: regular;
+    
+  }
+ #article-cite a, a:visited, a:active {
+    color: #ffde00;
+ }
+ 
+  
+    
+  .about-column div#header {
+    background-color: #ffde00;
+    font-size: 12px;
+    text-align: left;
+    display: flex;
+    justify-content: baseline;
+    margin: -20px -20px 0 -20px;
+    padding-left: 10px;
+    color: #333;
+    font-weight:lighter;
+    
+
+    
+  }
+  
+
+  .about-column p {
+    margin: 10px 0;
+  }
+
+  .about-column .video {
+    margin-top: 40px;
+    border-top: 2px solid #ffffff;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+  }
+
+  iframe {
+    width: 100%;
+    height: 220px;
+    border: none;
+  }
+
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    /*background-color: #333;*/
+    color: #070707;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    position: relative;
+  }
+  
+  #full-page{
+    
+    padding: 0 20px 0 20px;
+  }
+  #footer{
+    border-top: 3px solid #ffde00;
+    font-style: italic;
+    font-size: small;
+    margin: 0 180px 0 180px;
+    
+  }
+  span#footer-link a:link, a:hover, a:visited, a:active{ 
+    border: 2px solid #ffde00;
+    padding: 1px 3px;
+    background-color: #ffde00;
+    font-weight: bold;
+    color:black;
+    
+  }
+  @media (min-width: 1024px) {
+    .container {
+        flex-direction: row; /* Arrange content side by side */
+        gap: 20px; /* Maintain consistent spacing */
+    }
+
+    .lyrics-column {
+        flex: 1; /* Equal space for lyrics column */
+    }
+
+    .about-column {
+        flex: 1; /* Equal space for the About column */
+    }
+}
+
+/* Keep layout consistent even on very large screens */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1200px; 
+        margin: 0 auto; 
+    }
+}
+  @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    #main-banner {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .transparent-overlay h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-column, .lyrics-column {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.2rem;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+
+    .transparent-overlay h1 {
+        font-size: 1.2rem;
+    }
+
+    .transparent-overlay p {
+        font-size: 0.9rem;
+    }
+
+    #image img {
+        width: 120px;
+        height: 120px;
+    }
+}
